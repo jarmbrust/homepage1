@@ -23,7 +23,7 @@
             style="max-width: 250px;"
       >
       <p class="card-text">
-        Adopted almost 10 years ago, Toshi loved warmth, sunbeams, and just chill'n.  He passed away 4/5/2018
+        Adopted almost 10 years ago, Toshi loved warmth, sunbeams, and just chill'n.  He passed away 4/4/2018
         at the aprox age of 16.</p>
     </b-card>
 
