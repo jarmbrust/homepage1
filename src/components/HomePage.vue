@@ -25,6 +25,5 @@ export default {
   }
   .welcome-body {
     padding: 20px;
-    background-color: #fffff7;
   }
 </style>
