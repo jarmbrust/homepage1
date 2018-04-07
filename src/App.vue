@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <b-row>
-      <b-col cols="3">
-        <app-nav />
+      <b-col cols="auto">
+        <app-nav class="nav-bar"/>
       </b-col>
       <b-col>
         <b-container>
@@ -38,12 +38,14 @@ export default {
   margin-top: 10px;
 }
 
-.nav {
+/* .nav {
+
+  width: 200px;
+  position: absolute;
+} */
+
+.nav-bar {
+  width: 150px;
   display: sticky;
-  min-width: 100px;
-}
-
-.page-body {
-
 }
 </style>
