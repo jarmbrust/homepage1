@@ -25,6 +25,9 @@ export default {
   name: 'App',
   components: {
     appNav: Navigation
+  },
+  beforeCreate () {
+    document.body.className = 'home'
   }
 }
 </script>
@@ -40,14 +43,9 @@ export default {
 
 }
 
-body {
+body.home {
   background-color: #d7e1f2;
 }
-/* .nav {
-
-  width: 200px;
-  position: absolute;
-} */
 
 .nav-bar {
   width: 150px;
