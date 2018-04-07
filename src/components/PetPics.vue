@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Pet pics go here</h1>
+    <h1 class="heading">Glorious pet pictures will be displayed here!</h1>
   </div>
 </template>
 
@@ -11,5 +11,7 @@ export default {
 </script>
 
 <style>
-
+  .heading {
+    font-size: 20px;
+  }
 </style>

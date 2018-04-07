@@ -1,17 +1,10 @@
 <template>
   <div>
-    <h1>Test page</h1>
-    <b-card title="Card Title"
-            img-src="https://lorempixel.com/600/300/food/5/"
-            img-alt="Image"
-            img-top
-            tag="article"
-            style="max-width: 20rem;"
-            class="mb-2">
+    <b-card title="Todo">
       <p class="card-text">
-        Some quick example text to build on the card title and make up the bulk of the card's content.
+        Misc programs will be added here for your fun and excitement.  Until then, enjoy the crips lines.
       </p>
-      <b-button href="#" variant="primary">Go somewhere</b-button>
+      <b-button disabled variant="primary">Go somewhere</b-button>
     </b-card>
   </div>
 </template>
