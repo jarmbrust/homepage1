@@ -19,7 +19,8 @@ import BootstrapVue from 'bootstrap-vue'
 
 import Navigation from '@/components/Navigation.vue'
 
-Vue.use(BootstrapVue);
+Vue.use(BootstrapVue)
+
 export default {
   name: 'App',
   components: {
