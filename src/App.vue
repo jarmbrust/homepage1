@@ -1,11 +1,15 @@
 <template>
   <div id="app">
-    <div class="bs-docs-container">
-      <app-nav />
-      <div class="page-body">
-        <router-view/>
-      </div>
-    </div>
+    <b-row>
+      <b-col cols="3">
+        <app-nav />
+      </b-col>
+      <b-col>
+        <b-container>
+          <router-view/>
+        </b-container>
+      </b-col>
+    </b-row>
   </div>
 </template>
 
@@ -24,7 +28,7 @@ export default {
 }
 </script>
 
-<style >
+<style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -35,13 +39,11 @@ export default {
 }
 
 .nav {
-  display: block;
-  width: 200px;
-  position: absolute;
-  margin-top: 10px;
+  display: sticky;
+  min-width: 100px;
 }
 
 .page-body {
-  margin-top: 10px;
+
 }
 </style>

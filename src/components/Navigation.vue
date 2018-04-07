@@ -1,12 +1,13 @@
 <template>
-  <nav class="bs-docs-sidebar affix">
-    <ul class="nav nav-pills nav-stacked">
-      <li><router-link to="/" class="btn bs-docs-section">Home</router-link></li>
-      <li><router-link to="/todolist" class="btn bs-docs-section">Todo List</router-link></li>
-      <li><router-link to="/petpics" class="btn bs-docs-section">Pet Pics</router-link></li>
-      <li><router-link to="/aboutme" class="btn bs-docs-section">About Me</router-link></li>
-    </ul>
-  </nav>
+  <div bd-sidebar col-md-3 col-xl-2 col-12>
+    <b-nav vertical pills sticky>
+      <b-nav-item><router-link to="/" class="btn nav-item">Home</router-link></b-nav-item>
+      <b-nav-item><router-link to="/todolist" class="btn nav-item">Todo List</router-link></b-nav-item>
+      <b-nav-item><router-link to="/miscprograms" class="btn nav-item">Misc Programs</router-link></b-nav-item>
+      <b-nav-item><router-link to="/petpics" class="btn nav-item">Pet Pics</router-link></b-nav-item>
+      <b-nav-item><router-link to="/aboutme" class="btn nav-item">About Me</router-link></b-nav-item>
+    </b-nav>
+  </div>
 </template>
 
 <script>

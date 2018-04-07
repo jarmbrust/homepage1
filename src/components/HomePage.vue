@@ -1,9 +1,7 @@
 <template>
   <div>
-    <div class="panel-header">
       <h1 class="heading">Welcome</h1>
       <p>This is a website... </p>
-    </div>
   </div>
 </template>
 
