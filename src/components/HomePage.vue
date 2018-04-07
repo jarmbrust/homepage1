@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1 class="heading">Home</h1>
+    <div class="panel-header">
+      <h1 class="heading">Welcome</h1>
+      <p>This is a website... </p>
+    </div>
   </div>
 </template>
 
@@ -11,9 +14,10 @@ export default {
 </script>
 
 <style scoped>
+  .panel-header {
+    background-color: #fffff0;
+  }
   .heading {
     font-size: 16px;
-    display: inline-block;
-    text-align: left;
   }
 </style>

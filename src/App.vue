@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <app-nav></app-nav>
-    <div class="page-body">
-      <router-view/>
+    <div class="bs-docs-container">
+      <app-nav />
+      <div class="page-body">
+        <router-view/>
+      </div>
     </div>
   </div>
 </template>
