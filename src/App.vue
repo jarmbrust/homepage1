@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/" class="btn">Home</router-link>
-      <router-link to="/todolist" class="btn">Todo List</router-link>
-    </nav>
+    <app-nav></app-nav>
     <div class="page-body">
       <router-view/>
     </div>
@@ -11,12 +8,17 @@
 </template>
 
 <script>
+import Navigation from '@/components/Navigation.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    appNav: Navigation
+  }
 }
 </script>
 
-<style>
+<style >
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,7 +27,15 @@ export default {
   color: #2c3e50;
   margin-top: 10px;
 }
-nav {
+
+.nav {
   display: block;
+  width: 200px;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.page-body {
+  margin-top: 10px;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>todo list here</h1>
+    <h1>Pet pics go here</h1>
   </div>
 </template>
 
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>

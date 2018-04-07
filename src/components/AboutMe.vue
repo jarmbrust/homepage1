@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>todo list here</h1>
+    <h1>
+      about me page
+    </h1>
   </div>
 </template>
 

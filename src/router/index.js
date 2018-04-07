@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import HomePage from '@/components/HomePage'
 import TodoList from '@/components/TodoList'
+import PetPics from '@/components/PetPics'
+import AboutMe from '@/components/AboutMe'
 
 Vue.use(Router)
 
@@ -9,13 +11,28 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'HomePage',
+      component: HomePage
     },
     {
       path: '/todolist',
       name: 'TodoList',
       component: TodoList
+    },
+    {
+      path: '/petpics',
+      name: 'PetPics',
+      component: PetPics
+    },
+    {
+      path: '/aboutme',
+      name: 'AboutMe',
+      component: AboutMe
+    },
+    {
+      path: '*',
+      redirect: '/',
+      component: HomePage
     }
   ]
 })
