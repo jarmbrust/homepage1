@@ -10,8 +10,12 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
+
 import Navigation from '@/components/Navigation.vue'
 
+Vue.use(BootstrapVue);
 export default {
   name: 'App',
   components: {
