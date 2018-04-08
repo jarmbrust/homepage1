@@ -1,18 +1,24 @@
 <template>
   <div>
     <h1 class="heading">Various projects I am working on will be added here...</h1>
-    <b-card title="Todo List"
-            img-src="https://lorempixel.com/600/300/food/5/"
-            img-alt="Image"
-            img-top
-            tag="article"
-            style="max-width: 300px;"
+    <b-card
+      header="Todo List"
+      class="text-center project-card"
+      style="max-width: 400px;"
     >
       <p class="card-text">
         A todo list program I wrote in React a few weeks ago.  Will add it
         as soon as I rewrite it in Vue in the next few days.
       </p>
-      <b-button disabled>Go to ToDo List</b-button>
+      <b-button v-b-tooltip.hover title="not ready yet">Go to ToDo List</b-button>
+    </b-card>
+    <b-card
+      header="Retro Gamming Console"
+      class="text-center project-card"
+      style="max-width: 400px;"
+    >
+      <p class="card-text">Using a Raspberry Pi to make an awesome retro gaming console.</p>
+      <b-button v-b-tooltip.hover title="also not ready yet">Go to project</b-button>
     </b-card>
   </div>
 </template>
@@ -27,5 +33,8 @@ export default {
   .heading {
     font-size: 20px;
     margin: 20px;
+  }
+  .project-card {
+    margin: 15px;
   }
 </style>
