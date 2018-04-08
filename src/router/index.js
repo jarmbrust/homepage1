@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HomePage from '@/components/HomePage'
-import TodoList from '@/components/TodoList'
-import MiscPrograms from '@/components/MiscPrograms'
+import MiscProjects from '@/components/MiscProjects'
 import PetPics from '@/components/PetPics'
 import AboutMe from '@/components/AboutMe'
 
@@ -16,14 +15,9 @@ export default new Router({
       component: HomePage
     },
     {
-      path: '/todolist',
-      name: 'TodoList',
-      component: TodoList
-    },
-    {
-      path: '/miscprograms',
-      name: 'MiscPrograms',
-      component: MiscPrograms
+      path: '/miscprojects',
+      name: 'MiscProjects',
+      component: MiscProjects
     },
     {
       path: '/petpics',

@@ -49,7 +49,7 @@
             style="max-width: 250px;"
       >
       <p class="card-text">
-        Adopted from the pound about 5 years ago, this chihuahua mix loves
+        Adopted from the pound over 5 years ago, this old chihuahua mix loves
         sleeping, burrowing under blankets, and more sleeping.
       </p>
     </b-card>
