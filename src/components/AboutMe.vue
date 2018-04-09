@@ -4,7 +4,7 @@
     <p>
       Originally from Minneapolis I moved to sunny Colorado around nine years ago with my wife Lacey where
       we bought a house on the Front Range and adopted several animals.  I work for a fairly large company
-      in the area as a full stack developer, while she works at a children's museum.
+      in the area as a full stack developer, while Lacey works at one of the best children's museums in the country.
     </p>
     <p>
       My hobbies include Dungeons and Dragons and other RPGs; as well as sketching, hiking, programming,

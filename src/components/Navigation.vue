@@ -1,10 +1,10 @@
 <template>
   <b-container role="navigation" class="nav-container">
     <b-nav vertical pills>
-      <router-link to="/" class="nav-link">Home</router-link>
-      <router-link to="/miscprojects" class="nav-link">Misc Projects</router-link>
-      <router-link to="/petpics" class="nav-link">Pet Pics</router-link>
-      <router-link to="/aboutme" class="nav-link">About Me</router-link>
+      <b-link to="/home" class="nav-link">Home</b-link>
+      <b-link to="/miscprojects" class="nav-link">Misc Projects</b-link>
+      <b-link to="/petpics" class="nav-link">Pet Pics</b-link>
+      <b-link to="/aboutme" class="nav-link">About Me</b-link>
     </b-nav>
   </b-container>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <b-row>
-      <b-col cols="auto">
+      <b-col sticky sidebar cols="auto">
         <app-nav class="nav-bar"/>
       </b-col>
       <b-col>
@@ -49,6 +49,5 @@ body.home {
 
 .nav-bar {
   width: 150px;
-  display: sticky;
 }
 </style>
