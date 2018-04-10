@@ -78,8 +78,8 @@ html {
   color: black;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: #2c3e50;
+.nav-pills .nav-link.active {
+  background-color: #2c3e50 !important;
 }
 
 </style>
