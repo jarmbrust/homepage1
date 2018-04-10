@@ -16,7 +16,7 @@
       <b-row>
         <b-col cols="auto">
           <b-navbar sticky role="navigation" class="side-bar">
-            <b-nav vertical pills type="dark">
+            <b-nav vertical pills>
               <b-nav-item to="/home">Home</b-nav-item>
               <b-nav-item to="/miscprojects">Misc Projects</b-nav-item>
               <b-nav-item to="/petpics">Pet Pics</b-nav-item>
@@ -78,7 +78,7 @@ html {
   color: black;
 }
 
-.nav-pills .nav-link.active {
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   background-color: #2c3e50;
 }
 
