@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="scrollspy-nested" style="position:relative;height:100%;overflow-y:auto">
     <h1 class="heading">Meet the members of our family!</h1>
     <b-card class="pet-card"
             title="Chewie"

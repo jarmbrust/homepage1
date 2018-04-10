@@ -1,15 +1,22 @@
 <template>
   <div id="app">
-    <b-row>
-      <b-col sticky sidebar cols="auto">
-        <app-nav class="nav-bar"/>
-      </b-col>
-      <b-col>
-        <b-container>
+    <b-container fluid>
+      <b-row>
+        <b-col cols="auto">
+          <b-navbar sticky role="navigation">
+            <b-nav vertical pills>
+              <b-nav-item to="/home">Home</b-nav-item>
+              <b-nav-item to="/miscprojects">Misc Projects</b-nav-item>
+              <b-nav-item to="/petpics">Pet Pics</b-nav-item>
+              <b-nav-item to="/aboutme">About Me</b-nav-item>
+            </b-nav>
+          </b-navbar>
+        </b-col>
+        <b-col>
           <router-view/>
-        </b-container>
-      </b-col>
-    </b-row>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -39,15 +46,19 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  padding-top: 10px;
-
 }
 
 body.home {
   background-color: #d7e1f2;
+  margin: 0 35px;
+  min-height: 900px;
 }
 
+html {
+  background-color: black;
+}
 .nav-bar {
   width: 150px;
 }
+
 </style>
