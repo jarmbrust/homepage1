@@ -1,10 +1,22 @@
 <template>
   <div id="app">
+    <b-navbar fixed sticky toggleable="md" type="dark" variant="dark">
+      <b-navbar-brand to="/home">James <strong>Armbrust</strong></b-navbar-brand>
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item-dropdown right>
+          <template slot="button-content">
+            <em>User</em>
+          </template>
+          <b-dropdown-item href="#">Profile</b-dropdown-item>
+          <b-dropdown-item href="#">Signout</b-dropdown-item>
+        </b-nav-item-dropdown>
+      </b-navbar-nav>
+    </b-navbar>
     <b-container fluid>
       <b-row>
         <b-col cols="auto">
-          <b-navbar sticky role="navigation">
-            <b-nav vertical pills>
+          <b-navbar sticky role="navigation" class="side-bar">
+            <b-nav vertical pills type="dark">
               <b-nav-item to="/home">Home</b-nav-item>
               <b-nav-item to="/miscprojects">Misc Projects</b-nav-item>
               <b-nav-item to="/petpics">Pet Pics</b-nav-item>
@@ -49,7 +61,7 @@ export default {
 }
 
 body.home {
-  background-color: #d7e1f2;
+  background-color: #ced9dd;
   margin: 0 35px;
   min-height: 900px;
 }
@@ -57,8 +69,17 @@ body.home {
 html {
   background-color: black;
 }
-.nav-bar {
-  width: 150px;
+
+.side-bar {
+  top: 60px;
+}
+
+.nav-pills .nav-link {
+  color: black;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #2c3e50;
 }
 
 </style>
