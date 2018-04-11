@@ -15,7 +15,7 @@
     <b-container fluid>
       <b-row>
         <b-col cols="auto">
-          <b-navbar sticky role="navigation" class="side-bar">
+          <b-navbar sticky role="navigation" class="side-bar collapse navbar-collapse">
             <b-nav vertical pills>
               <b-nav-item to="/home">Home</b-nav-item>
               <b-nav-item to="/miscprojects">Misc Projects</b-nav-item>
@@ -63,7 +63,6 @@ export default {
 body.home {
   background-color: #ced9dd;
   margin: 0 35px;
-  min-height: 900px;
 }
 
 html {
@@ -71,7 +70,7 @@ html {
 }
 
 .side-bar {
-  top: 60px;
+  top: 70px;
 }
 
 .nav-pills .nav-link {
