@@ -66,7 +66,7 @@ body.home {
 }
 
 html {
-  background-color: black;
+  background-color: #2c3e50;
 }
 
 .side-bar {
