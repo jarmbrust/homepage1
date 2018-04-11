@@ -36,15 +36,10 @@
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
 
-import Navigation from '@/components/Navigation.vue'
-
 Vue.use(BootstrapVue)
 
 export default {
   name: 'App',
-  components: {
-    appNav: Navigation
-  },
   beforeCreate () {
     document.body.className = 'home'
   }
