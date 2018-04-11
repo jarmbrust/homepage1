@@ -1,14 +1,16 @@
 <template>
   <div class="welcome-body">
-      <h1 class="heading">Welcome!</h1>
+      <h1 class="heading">Hello</h1>
       <p>
-        This is a new site that I am currently building as of April 2018.
-        It's not even remotely done, but I wanted to replace the old version
-        I had up asap... so, here you go.
+        Welcome to my little corner of the web.
       </p>
       <p>
-        I will be working on this throughout the month, and hopefully will have something
-        that is a little less of an eye-sore in the next few weeks.
+        I am a web developer living in Colorado, and the intent of this site will be to
+        host a few projects I am working on.
+      </p>
+      <p>
+        As of this writing (4/11) I only just started this site a few days ago, so there is not much yet to show...
+        but check back as I will be working on it throughout the month of April.
       </p>
   </div>
 </template>
