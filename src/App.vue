@@ -70,7 +70,7 @@ html {
 }
 
 .side-bar {
-  top: 70px;
+  top: 70px !important;
 }
 
 .nav-pills .nav-link {
