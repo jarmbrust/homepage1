@@ -1,16 +1,12 @@
 <template>
   <div>
-    <h1 class="heading">Various projects I am working on will be added here...</h1>
+    <h1 class="heading">Various projects and code samples will be added here...</h1>
     <b-card
-      header="Todo List"
+      header="Simple Todo List"
       class="text-center project-card"
       style="max-width: 400px;"
     >
-      <p class="card-text">
-        A todo list program I wrote in React a few weeks ago.  Will add it
-        as soon as I rewrite it in Vue in the next few days.
-      </p>
-      <b-button v-b-tooltip.hover title="not ready yet">Go to ToDo List</b-button>
+      <todo-list/>
     </b-card>
     <b-card
       header="Retro Gamming Console"
@@ -18,14 +14,18 @@
       style="max-width: 400px;"
     >
       <p class="card-text">Using a Raspberry Pi to make an awesome retro gaming console.</p>
-      <b-button v-b-tooltip.hover title="also not ready yet">Go to project</b-button>
+      <b-button v-b-tooltip.hover title="not ready yet">Go to project</b-button>
     </b-card>
   </div>
 </template>
 
 <script>
-export default {
+import TodoList from '@/todolist/components/AppTodoList'
 
+export default {
+  components: {
+    todoList: TodoList
+  }
 }
 </script>
 
