@@ -11,7 +11,7 @@
     <b-card
       header="Character Stat Generator"
       class="text-center project-card"
-      style="max-width: 500px;"
+      style="max-width: 550px;"
     >
       <stats-tool/>
     </b-card>

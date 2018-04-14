@@ -17,25 +17,28 @@
           <td>{{ stat.val }}</td>
           <td>{{ Math.floor(((Number(stat.val)) - 10)/2) }}</td>
           <td>{{ 0 }}</td>
-          <td>{{ 0 }}</td>
+          <td>{{ cost[stat.val] }}</td>
           <td>
             <b-dropdown
               id="ddown1"
               text="Point Cost"
               class="m-md-1"
             >
-              <b-dropdown-item v-for="num in cost" :key="num" @click="modifyStat(stat.id, stat.val, num, index)">{{ num }}</b-dropdown-item>
+              <b-dropdown-item v-for="num in cost" :key="num" @click="modifyStat(stat.val, num, index)">{{ num }}</b-dropdown-item>
             </b-dropdown>
           </td>
         </tr>
       </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="6">Points to spend: {{ points }}</td>
+        </tr>
+      </tfoot>
     </table>
   </div>
 </template>
 
 <script>
-// import raceAbilities from './../data/racialBonuses'
-
 export default {
   data () {
     return {
@@ -61,14 +64,20 @@ export default {
     }
   },
   methods: {
-    modifyStat (id, val, num, index) {
+    modifyStat (val, num, index) {
       const value = Object.keys(this.cost).find(key => this.cost[key] === num)
       this.baseStats[index].val = value
+      this.adjustPoints(this.cost[val], num)
+    },
+    adjustPoints (prevCost, newCost) {
+      this.points += prevCost - newCost
     }
   }
 }
 </script>
 
 <style scoped>
-
+  table th {
+    padding: 10px;
+  }
 </style>
