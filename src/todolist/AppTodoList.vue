@@ -30,7 +30,7 @@ export default {
         },
         {
           id: 2,
-          title: 'Finish Website'
+          title: 'Finish website'
         }
       ],
       nextTodoId: 3

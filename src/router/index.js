@@ -4,7 +4,7 @@ import HomePage from '@/components/HomePage'
 import MiscProjects from '@/components/MiscProjects'
 import PetPics from '@/components/PetPics'
 import AboutMe from '@/components/AboutMe'
-import TodoList from '@/todolist/components/AppTodoList'
+import TodoList from '@/todolist/AppTodoList'
 
 Vue.use(Router)
 

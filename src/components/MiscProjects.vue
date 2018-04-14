@@ -7,6 +7,13 @@
       style="max-width: 400px;"
     >
       <todo-list/>
+    </b-card >
+    <b-card
+      header="Character Stat Generator"
+      class="text-center project-card"
+      style="max-width: 500px;"
+    >
+      <stats-tool/>
     </b-card>
     <b-card
       header="Retro Gamming Console"
@@ -20,11 +27,13 @@
 </template>
 
 <script>
-import TodoList from '@/todolist/components/AppTodoList'
+import TodoList from '@/todolist/AppTodoList'
+import StatsTool from '@/statsTool/AppStatsTool'
 
 export default {
   components: {
-    todoList: TodoList
+    todoList: TodoList,
+    statsTool: StatsTool
   }
 }
 </script>
