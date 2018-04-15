@@ -21,10 +21,16 @@
           <td>
             <b-dropdown
               id="ddown1"
-              text="Point Cost"
+              text="Assign Points"
               class="m-md-1"
             >
-              <b-dropdown-item v-for="num in cost" :key="num" @click="modifyStat(stat.val, num, index)">{{ num }}</b-dropdown-item>
+              <b-dropdown-item
+                v-for="(num, i) in cost"
+                :key="num"
+                @click="modifyStat(stat.val, num, index)"
+              >
+                Value: {{ i }}, Cost: {{ num }}
+              </b-dropdown-item>
             </b-dropdown>
           </td>
         </tr>
