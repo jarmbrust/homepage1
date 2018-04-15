@@ -1,5 +1,5 @@
 <template>
-  <div id="scrollspy-nested" style="position:relative;height:100%;overflow-y:auto">
+  <div>
     <h1 class="heading">Meet the members of our family!</h1>
     <b-card class="pet-card"
             title="Chewie"
@@ -7,7 +7,6 @@
             img-alt="Chewie the dog"
             img-top
             tag="article"
-            style="max-width: 250px;"
       >
       <p class="card-text">
         Adopted from the pound about 7 years ago, this lovable black lab loves
@@ -20,7 +19,6 @@
             img-alt="Muppet the dog"
             img-top
             tag="article"
-            style="max-width: 250px;"
       >
       <p class="card-text">
         Adopted from the pound about 2 years ago, this Chinese crested/terrier mix loves
@@ -33,7 +31,6 @@
             img-alt="Lexi the dog"
             img-top
             tag="article"
-            style="max-width: 250px;"
       >
       <p class="card-text">
         Adopted from the pound about 3 years ago, this chihuahua mix loves
@@ -46,7 +43,6 @@
             img-alt="Stormy the dog"
             img-top
             tag="article"
-            style="max-width: 250px;"
       >
       <p class="card-text">
         Adopted from the pound over 5 years ago, this old chihuahua mix loves
@@ -59,7 +55,6 @@
             img-alt="Kitten the cat"
             img-top
             tag="article"
-            style="max-width: 250px;"
       >
       <p class="card-text">
         Adopted around 8 years ago, "Kitten" loves attention, being the center of attention,
@@ -72,7 +67,6 @@
             img-alt="Toshi the cat"
             img-top
             tag="article"
-            style="max-width: 250px;"
       >
       <p class="card-text">
         Adopted almost 10 years ago, Toshi loved warmth, sunbeams, and just chill'n.  He passed away 4/4/2018
@@ -97,5 +91,7 @@ export default {
   .pet-card {
     float: left;
     margin: 10px;
+    max-width: 250px;
+    min-height: 550px;
   }
 </style>

@@ -9,7 +9,7 @@
       <todo-list/>
     </b-card >
     <b-card
-      header="Character Stat Generator"
+      header="Dungeons and Dragons Character Stat Generator"
       class="text-center project-card"
       style="max-width: 550px;"
     >

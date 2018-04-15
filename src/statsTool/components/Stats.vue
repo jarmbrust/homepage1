@@ -8,7 +8,7 @@
           <th scope="col">Bonus</th>
           <th scope="col">Racial</th>
           <th scope="col">Point Cost</th>
-          <th scope="col"></th>
+          <th scope="col"> Race: {{ race }}</th>
         </tr>
       </thead>
       <tbody>
