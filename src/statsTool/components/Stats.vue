@@ -14,13 +14,12 @@
       <tbody>
         <tr v-for="(stat, index) in baseStats" :key="stat.id" >
           <td>{{ stat.id }}</td>
-          <td>{{ stat.val }}</td>
-          <td>{{ Math.floor(((Number(stat.val)) - 10)/2) }}</td>
-          <td>{{ 0 }}</td>
+          <td>{{ Number(stat.val) + Number(displayRacialBonus(stat.id, index)) }}</td>
+          <td>{{ Math.floor(((Number(stat.val)) + Number(displayRacialBonus(stat.id, index)) - 10)/2) }}</td>
+          <td>{{ displayRacialBonus(stat.id, index) }}</td>
           <td>{{ cost[stat.val] }}</td>
           <td>
             <b-dropdown
-              id="ddown1"
               text="Assign Points"
               class="m-md-1"
             >
@@ -37,7 +36,21 @@
       </tbody>
       <tfoot>
         <tr>
-          <td colspan="6">Points to spend: {{ points }}</td>
+          <td colspan="5">Points to spend: {{ points }}</td>
+          <td>
+            <b-dropdown
+              text="Choose Race"
+              class="m-md-1"
+            >
+              <b-dropdown-item
+                v-for="(stats, index) in racialBonuses"
+                :key="index"
+                @click="addRacialBonuses(stats.race, stats.stats, index)"
+              >
+                {{ stats.race }}
+              </b-dropdown-item>
+            </b-dropdown>
+          </td>
         </tr>
       </tfoot>
     </table>
@@ -45,6 +58,8 @@
 </template>
 
 <script>
+import racialBonuses from './../data/racialBonuses'
+
 export default {
   data () {
     return {
@@ -57,6 +72,8 @@ export default {
         { id: 'Charisma', val: 8 }
       ],
       points: 27,
+      race: 'Default',
+      raceIndex: 0,
       cost: {
         8: 0,
         9: 1,
@@ -66,7 +83,8 @@ export default {
         13: 5,
         14: 7,
         15: 9
-      }
+      },
+      racialBonuses
     }
   },
   methods: {
@@ -77,6 +95,16 @@ export default {
     },
     adjustPoints (prevCost, newCost) {
       this.points += prevCost - newCost
+    },
+    addRacialBonuses (race, stats, index) {
+      this.race = race
+      this.raceIndex = index
+    },
+    displayRacialBonus (stat, index) {
+      if (this.race === 'Default') {
+        return 0
+      }
+      return this.racialBonuses[this.raceIndex].stats[0][stat]
     }
   }
 }
