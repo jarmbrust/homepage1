@@ -5,9 +5,9 @@
         Welcome to my little corner of the web.
       </p>
       <p>
-        This site is pretty bare-bones at the moment. I started playing around with making it in early April 2018, and hope
-        to have it more or less fleshed out by the end of the month.  Currently I have a few misc code samples and pictures
-        of my dogs.  But as they say, you have to start somewhere!
+        <span class="bold">4/16/2018:</span> This site is pretty bare-bones at the moment. I started building it in early April 2018,
+        and hope to have it more or less fleshed out by the end of the month.  Currently playing around with styles and
+        getting my SSL set up. Meanwhile, I have a few misc code samples and pictures of my dogs.  More Soon!
       </p>
   </div>
 </template>
@@ -25,5 +25,8 @@ export default {
   }
   .welcome-body {
     padding: 20px;
+  }
+  .bold {
+    font-weight: bold;
   }
 </style>
