@@ -3,7 +3,7 @@
     <input type="text"
       v-model="newItemText"
       @keyup.enter="addNewTodoItem"
-      placeholder="Add an item"
+      placeholder=" Add an item"
     >
     <ul v-for="todo in todolist" :key="todo.id">
       <li>

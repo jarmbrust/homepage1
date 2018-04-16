@@ -2,19 +2,19 @@
   <div>
     <h1 class="heading">Various projects and code samples will be added here...</h1>
     <b-card
-      header="Simple Todo List"
-      class="text-center project-card"
-      style="max-width: 400px;"
-    >
-      <todo-list/>
-    </b-card >
-    <b-card
       header="Dungeons and Dragons Character Stat Generator"
       class="text-center project-card"
       style="max-width: 550px;"
     >
       <stats-tool/>
     </b-card>
+    <b-card
+      header="Simple Todo List"
+      class="text-center project-card"
+      style="max-width: 400px;"
+    >
+      <todo-list/>
+    </b-card >
     <b-card
       header="Retro Gamming Console"
       class="text-center project-card"
