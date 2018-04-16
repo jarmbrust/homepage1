@@ -7,7 +7,7 @@
       in the area as a full stack web developer, while Lacey works at one of the best children's museums in the country.
     </p>
     <p>
-      My hobbies include Tabletop RPGs; as well as sketching, hiking, programming, computer games, and playing with my dogs.
+      My hobbies include Tabletop games, as well as sketching, hiking, programming, and computer games.
     </p>
     <p>
       Code for this site can be found on <a href="https://github.com/jarmbrust/homepage1" target="_blank">my Github</a>
