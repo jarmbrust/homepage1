@@ -36,7 +36,7 @@ export default [
     ]
   },
   {
-    race: 'Lightfood Halfling',
+    race: 'Lightfoot Halfling',
     stats: [
       { 'Strength': 0, 'Dexterity': 2, 'Constitution': 0, 'Intelligence': 0, 'Wisdom': 0, 'Charisma': 1 }
     ]
