@@ -9,6 +9,7 @@ import TodoList from '@/todolist/AppTodoList'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
