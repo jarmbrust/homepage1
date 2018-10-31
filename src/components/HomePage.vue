@@ -21,7 +21,7 @@
       </p>
       <p class="blog">
         Muppet was just in here letting me know that Lacey went to bed, and that since we are now in seperate parts of the house his
-        herding instincts are upset, and I should rectify it by going to bed. As good a reason as any, so I think I will oblgue.
+        herding instincts are upset, and I should rectify it by going to bed. As good a reason as any, so I think I will oblige.
       </p>
       <p class="blog">
         <span class="bold">4/18/2018:</span> Lost power due to high winds for part of last night. Fun times. Everything in the
