@@ -11,13 +11,17 @@
       <hr>
       <p class="blog">
         <span class="bold">10/30/2018:</span> After a little bit of wrangling, I have been able to get this site working again
-        after being in limbo for a number of months. I needed to remove some critical vulnerabilities that popped up in the meantime,
-        fixed the routing, and generally cleaned up the code some. My next task however will be to rewrite it using the new vue-cli 3.
+        after being in limbo for a number of months. I needed to remove some critical vulnerabilities that popped up in the meantime though.
+        I also fixed the routing and generally cleaned up the code some. My next task however will be to rewrite it using the new vue-cli 3.
         That however will mean that I will need to strip out out the bootstrap-vue since it doesn't seem like it has been updated
         to work with the version 3 of the cli.
       </p>
       <p class="blog">
         Exciting stuff, I know...
+      </p>
+      <p class="blog">
+        Muppet was just in here letting me know that Lacey went to bed, and that since we are now in seperate parts of the house his
+        herding instincts are upset, and I should rectify it by going to bed. As good a reason as any, so I think I will oblgue.
       </p>
       <p class="blog">
         <span class="bold">4/18/2018:</span> Lost power due to high winds for part of last night. Fun times. Everything in the
