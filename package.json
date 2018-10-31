@@ -15,6 +15,7 @@
     "bootstrap-vue": "^2.0.0-rc.6",
     "express": "^4.16.3",
     "openssl": "^1.1.0",
+    "url-parse": "^1.4.3",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
