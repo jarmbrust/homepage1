@@ -10,7 +10,13 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'history',
-  routes: [{
+  routes: [
+    {
+      path: '/',
+      name: 'HomePage',
+      component: HomePage
+    },
+    {
       path: '/home',
       name: 'HomePage',
       component: HomePage
@@ -37,7 +43,7 @@ export default new Router({
     },
     {
       path: '*',
-      redirect: '/home',
+      redirect: '/',
       component: HomePage
     }
   ]

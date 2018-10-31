@@ -9,7 +9,7 @@
             tag="article"
       >
       <p class="card-text">
-        Adopted from the pound about 7 years ago, this lovable black lab enjoys
+        Adopted from the pound about 7 years ago, this lovable black lab loves
         lounging on the couch, walks, and generally ignoring physics.
       </p>
     </b-card>
@@ -78,18 +78,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+
+}
 </script>
 
 <style>
-.heading {
-  font-size: 20px;
-  margin: 20px;
-}
-.pet-card {
-  float: left;
-  margin: 10px;
-  max-width: 250px;
-  min-height: 550px;
-}
+  .heading {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .pet-card {
+    float: left;
+    margin: 10px;
+    max-width: 250px;
+    min-height: 550px;
+  }
 </style>
