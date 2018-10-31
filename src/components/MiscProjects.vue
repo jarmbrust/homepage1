@@ -21,10 +21,13 @@
       class="text-center project-card"
       style="max-width: 550px;"
     >
+      <p class="card-text">I play D&D with some friends on the weekends. I made wrote this as a revamp of a program I
+        created in jQuery awhile ago to facilitate character creation.
+      </p>
       <stats-tool/>
     </b-card>
     <b-card
-      header="Simple Todo List"
+      header="A (Very) Simple Todo List"
       class="text-center project-card"
       style="max-width: 400px;"
     >
