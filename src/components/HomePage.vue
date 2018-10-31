@@ -10,8 +10,11 @@
       </p>
       <hr>
       <p class="blog">
+        <span class="bold">10/31/2018:</span> Happy Halloween!!
+      </p>
+      <p class="blog">
         <span class="bold">10/30/2018:</span> After a little bit of wrangling, I have been able to get this site working again
-        after being in limbo for a number of months. I needed to remove some critical vulnerabilities that popped up in the meantime though.
+        after being in limbo for a number of months. I needed to update some of the packages and clean up the code.
         I also fixed the routing and generally cleaned up the code some. My next task however will be to rewrite it using the new vue-cli 3.
         That however will mean that I will need to strip out out the bootstrap-vue since it doesn't seem like it has been updated
         to work with the version 3 of the cli.

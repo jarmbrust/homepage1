@@ -1,6 +1,6 @@
 <template>
   <div class="aboutme-body">
-    <h1 class="heading">Talk'n about myself</h1>
+    <h1 class="heading">About Me</h1>
     <p>
       I'm originally from Minneapolis, and moved to sunny Colorado around nine years ago with my wife Lacey. Here
       we bought a house on the Front Range and adopted several animals.  I work for a fairly large company
